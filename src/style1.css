@@ -360,6 +360,13 @@ header ul li a:hover {
 @media (max-width: 768px) {
   .hero {
     flex-direction: column; /* Chuyển thành cột khi màn hình nhỏ */
+    padding: 20px;
+}
+.features{
+  padding: 20px !important;
+}
+.buttons{
+  width: 300px !important;
 }
 .features-header p{
  display: none !important;
@@ -425,7 +432,7 @@ header ul li a:hover {
   }
   .benefits-text {
     text-align: center;
-    margin-left: 20px;
+    margin-left: 20px !important;
   }
 
   .benefits-text h2 {
@@ -440,17 +447,25 @@ header ul li a:hover {
   .no-need1{
     order: -1;
   }
+  .testimonials-content{
+    padding: 0 !important;
+  }
 }
 
 /* Responsive cho màn hình rất nhỏ (dưới 480px) */
 @media (max-width: 480px) {
   .hero{
     display: block;
+    padding: 20px;
+  }
+  .features{
+    padding: 20px !important;
   }
   .content {
     max-width: 100%; /* Ghi đè giá trị max-width trên màn hình nhỏ */
     padding: 0 15px; /* Thêm padding để nội dung không dính sát vào hai bên màn hình */
   }
+
   .content h1 {
     font-size: 1.8rem;
   }
@@ -459,6 +474,9 @@ header ul li a:hover {
   }
   .content p {
     font-size: 0.9rem;
+  }
+  .phones img{
+    width: 90px !important;
   }
   .content img {
     display: none;
@@ -486,7 +504,6 @@ header ul li a:hover {
 
   .benefits-text ul li {
     font-size: 1rem;
-    margin-left: 55px;
   }
   .basic{
     height: auto !important;
@@ -496,9 +513,43 @@ header ul li a:hover {
     height: auto !important;
     width: auto ;
   }
+  .testimonials-content{
+    padding: 0 !important;
+  }
   .enterprise{
     height: auto !important;
     width: auto ;
+  }
+  .item img{
+    height: 30px !important;
+    width: auto ;
+  }
+  .item p{
+    font-size: 13px !important;
+  }
+  .features-header h1{
+    font-size: 23px !important;
+  }
+  .feature img{
+    width: 250px !important;
+    margin-left: 50px !important;
+  }
+  .image-container img{
+    display: none !important;
+  }
+  .image-containerr img{
+    width: 350px !important;
+    margin-left: 10px;
+  }
+  .card{
+    width: 250px !important;
+    height: 300px !important;
+  }
+  .card-content p{
+    font-size: 12px !important;
+  }
+  .features h2{
+    font-size: 25px !important;
   }
 }
 
@@ -596,7 +647,6 @@ header ul li a:hover {
 .features p {
   font-size: 18px;
   color: #666;
-  margin-bottom: 40px;
 }
 
 .cards-container {
@@ -833,7 +883,7 @@ body {
 
 .phone-image {
   width: 100%;
-  max-width: 200px;
+  /* max-width: 200px; */
   margin-bottom: 20px;
   border-radius: 20px;
 }
@@ -859,17 +909,11 @@ body {
     gap: 20px;
   }
 
-  .phone-image {
-    max-width: 150px;
-  }
 }
 
 @media (max-width: 480px) {
   .features-grid {
     grid-template-columns: 1fr;
-  }
-  .phone-image {
-    max-width: 130px;
   }
 }
 * {
