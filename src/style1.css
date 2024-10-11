@@ -368,6 +368,18 @@ header ul li a:hover {
 .buttons{
   width: 300px !important;
 }
+.phones img{
+  width: 100px !important;
+  height: auto !important;
+}
+.star-big img{
+  width: 30px !important;
+  margin-top: -60px !important;
+}
+.star-small img{
+  width: 40px !important;
+  margin-top: 20px;
+}
 .features-header p{
  display: none !important;
 }
@@ -476,7 +488,16 @@ header ul li a:hover {
     font-size: 0.9rem;
   }
   .phones img{
-    width: 90px !important;
+    width: 80px !important;
+    height: auto !important;
+  }
+  .star-big img{
+    width: 30px !important;
+    margin-bottom: 30px !important;
+  }
+  .star-small img{
+    width: 40px !important;
+    margin-top: 20px;
   }
   .content img {
     display: none;
