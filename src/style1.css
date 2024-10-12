@@ -8,12 +8,14 @@
 body {
   background: linear-gradient(120deg, #f0fdf4, #ffffff);
   color: #333;
+  margin: 0 30px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  margin: 0 40px;
   background: transparent;
   align-items: center;
 }
@@ -23,7 +25,9 @@ header ul {
   display: flex;
   gap: 20px;
 }
-
+header a{
+  margin-right: 30px;
+}
 header ul li a {
   text-decoration: none;
   color: #333;
@@ -69,10 +73,24 @@ header ul li a:hover {
   align-items: center;
   gap: 30px;
 }
-
+.image-container{
+  margin-right: 100px;
+}
+.image-container img{
+  width: 450px !important;
+  height: auto !important;
+}
 .image-containerr {
   overflow: hidden;
   transition: transform 0.3s ease;
+}
+.content p {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333; 
+  max-width: 600px;
+  text-align: justify;
 }
 
 .image-containerr img {
@@ -115,7 +133,42 @@ header ul li a:hover {
   color: #4CAF50;
   font-size: 1.5rem;
 }
-
+.basic ul li::before {
+  content: '✓';
+  left: 0;
+  color: #4CAF50;
+  font-size: 1.5rem;
+}
+.basic ul li{
+  text-align: start;
+  padding-left: 50px;
+}
+.pro ul li{
+  text-align: start;
+  padding-left: 50px;
+}
+.enterprise ul li{
+  text-align: start;
+  padding-left: 50px;
+}
+.pro ul li::before {
+  content: '✓';
+  left: 0;
+  color: #4CAF50;
+  font-size: 1.5rem;
+}
+.basic ul li::before {
+  content: '✓';
+  left: 0;
+  color: #4CAF50;
+  font-size: 1.5rem;
+}
+.enterprise ul li::before {
+  content: '✓';
+  left: 0;
+  color: #4CAF50;
+  font-size: 1.5rem;
+}
 .benefits-text ul li:hover {
   color: #333;
   transform: translateX(10px);
@@ -225,7 +278,6 @@ header ul li a:hover {
 .btn-pro,
 .btn-enterprise {
   display: inline-block;
-  margin-top: 15px;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -306,7 +358,7 @@ header ul li a:hover {
 }
 
 .card-content {
-  text-align: left; 
+  text-align: justify;
   padding: 15px;
 }
 
@@ -356,7 +408,9 @@ header ul li a:hover {
 .button:hover {
   background-color: #10b981; /* Màu nền khi hover */
 }
-
+.features{
+  background-color: #f9f8fe;
+}
 @media (max-width: 768px) {
   .hero {
     flex-direction: column; /* Chuyển thành cột khi màn hình nhỏ */
@@ -364,6 +418,7 @@ header ul li a:hover {
 }
 .features{
   padding: 20px !important;
+  background-color: #f9f8fe;
 }
 .buttons{
   width: 300px !important;
@@ -810,14 +865,15 @@ header ul li a:hover {
 
 .no-need-section {
   padding: 40px 0;
-  background-color: #f9fafb;
+  background-color: #f4f8fb;
   text-align: center;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  border-radius: 15px;
 }
 .no-need1{
   padding-bottom: 20px;
+}
+.no-need1 h1{
+  font-size: 36px;
 }
 .no-need-section h1 {
   margin-right: 20px;
@@ -860,6 +916,8 @@ body {
   padding: 50px 0;
   max-width: 1200px;
   margin: 0 auto;
+  /* background: linear-gradient(to left, #ffffff, #fff7e6); */
+
 }
 .features-header {
   display: flex;
@@ -876,8 +934,9 @@ body {
   font-size: 16px;
   color: #666;
   margin-bottom: 20px;
-  max-width: 600px;
+  max-width: 300px;
   margin-left: auto;
+  text-align: justify;
   margin-right: auto;
 }
 
