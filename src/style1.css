@@ -8,7 +8,7 @@
 body {
   background: linear-gradient(120deg, #f0fdf4, #ffffff);
   color: #333;
-  margin: 0 30px;
+  margin: 0 50px;
 }
 
 header {
@@ -76,10 +76,6 @@ header ul li a:hover {
 .image-container{
   margin-right: 100px;
 }
-.image-container img{
-  width: 450px !important;
-  height: auto !important;
-}
 .image-containerr {
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -94,21 +90,20 @@ header ul li a:hover {
 }
 
 .image-containerr img {
-  width: 100%;
-  height: 100%;
+  width: 647px !important;
+  height: 546px !important;
   transition: transform 0.3s ease;
+  padding-top: 20px;
 }
 
 .image-containerr:hover img {
   transform: scale(1.05);
 }
 
-.benefits-text {
-  text-align: left;
-}
 
-.benefits-text h2 {
-  font-size: 2rem;
+
+.benefits-text h1 {
+  font-size: 50px;
   margin-bottom: 20px;
   transition: color 0.3s ease;
 }
@@ -123,7 +118,7 @@ header ul li a:hover {
 .benefits-text ul li {
   margin-bottom: 10px;
   position: relative;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .benefits-text ul li::before {
@@ -208,16 +203,16 @@ header ul li a:hover {
 .feature {
   border-radius: 10px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.feature{
+  margin-left: -70px;
+}
 .feature:hover {
   transform: translateY(-5px); /* Nâng cao khi hover */
 }
-
 .phone-image {
-  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng */
   height: auto;
   transition: transform 0.3s ease; /* Hiệu ứng chuyển đổi cho hình ảnh */
 }
@@ -227,7 +222,6 @@ header ul li a:hover {
 }
 
 .feature h3 {
-  margin: 15px 0 10px;
   font-size: 1.5rem;
   transition: color 0.3s ease; /* Hiệu ứng chuyển màu cho tiêu đề */
 }
@@ -241,9 +235,7 @@ header ul li a:hover {
 .feature:hover p {
   color: #4CAF50; /* Thay đổi màu sắc khi hover */
 }
-.feature img{
-  margin-left: 30px;
-}
+
 /* Choose Plan */
 .plans-grid {
   display: grid;
@@ -333,7 +325,7 @@ header ul li a:hover {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    flex-wrap: wrap; 
+    /* flex-wrap: wrap;  */
 }
 
 .card {
@@ -342,18 +334,20 @@ header ul li a:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
-    width: 30%;
+    width: 440px;
     cursor: pointer;
 }
-
+.feature img{
+  width: 480px !important;
+}
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+    width: 435px !important;
+    height: 500px !important;
     display: block;
 }
 
@@ -378,7 +372,7 @@ header ul li a:hover {
 }
 
 .content h1 {
-  font-size: 48px;
+  font-size: 55px;
   margin-bottom: 20px;
   color: #191a15;
 }
@@ -677,15 +671,6 @@ header ul li a:hover {
   position: relative;
 }
 
-.image-container img {
-  width: 350px;
-  border-radius: 10px;
-}
-.image-containerr img {
-  width: 350px;
-  border-radius: 10px;
-}
-
 .qr-code {
   position: absolute;
   top: 60px;
@@ -712,7 +697,7 @@ header ul li a:hover {
 }
 .features {
   padding: 60px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .features h2 {
@@ -733,16 +718,16 @@ header ul li a:hover {
 
 .card {
   background-color: #f9fafb;
-  border-radius: 10px;
+  border-radius: 19px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px;
+  width: 435px;
   position: relative;
 }
 
 .card img {
-  width: 100%;
-  height: 100%;
+  width: 435px !important;
+  height: 500px !important;
   object-fit: cover;
 }
 
@@ -769,6 +754,10 @@ header ul li a:hover {
   font-size: 14px;
   color: #666;
 }
+.benefits-section{
+  width: 1000px !important;
+  margin-left: 150px;
+}
 
 @media (max-width: 768px) {
   .cards-container {
@@ -789,16 +778,14 @@ header ul li a:hover {
 
 .image-container {
   position: relative;
-  width: 300px;
+  width: 600px;
 }
 
 .image-container img {
-  width: 100%;
-  border-radius: 10px;
-}
-.image-containerr img {
-  width: 100%;
-  border-radius: 10px;
+  width: 581px !important;
+  height: 557px !important;
+  border-radius: 25px !important;
+  margin-left: 200px !important;
 }
 
 .food-info {
@@ -836,8 +823,10 @@ header ul li a:hover {
 }
 
 .benefits-text {
-  max-width: 400px;
   margin-top: -5px;
+  width: 500px !important;
+  margin-left: 40px;
+  line-height: 40px;
 }
 
 .benefits-text h2 {
@@ -860,29 +849,27 @@ header ul li a:hover {
 .benefits-text ul li::before {
   content: "✔";
   color: #10b981;
-  margin-right: 10px;
 }
 
 .no-need-section {
+  display: flex;
   padding: 40px 0;
   background-color: #f4f8fb;
-  text-align: center;
+  justify-content: start;
+  align-items: center;
   border-radius: 15px;
 }
-.no-need1{
-  padding-bottom: 20px;
-}
-.no-need1 h1{
-  font-size: 36px;
-}
+
 .no-need-section h1 {
+  font-size: 50px;
   margin-right: 20px;
 }
 
 .no-need-items {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 250px;
+  margin-left: 50px;
 }
 
 .no-need-items .item {
@@ -923,9 +910,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 60px;
 }
 .features-header h1 {
-  font-size: 36px;
+  font-size: 45px;
   color: #333;
   margin-bottom: 10px;
 }
@@ -941,45 +929,50 @@ body {
 }
 
 .get-started-btn {
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: #5fd7b9;
   color: white;
   border: none;
   border-radius: 30px;
   cursor: pointer;
   font-size: 16px;
+  margin-right: 20px;
   margin-bottom: 40px;
 }
 
 .features-grid {
   display: grid;
+  gap: 25px;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
 }
-
-.feature {
-  text-align: center;
+.textt{
+  margin-right: 100px !important;
+  text-align: start;
 }
-
+.textt h3{
+  margin-left: 70px !important;
+  text-align: start;
+}
 .phone-image {
   width: 100%;
-  /* max-width: 200px; */
-  margin-bottom: 20px;
   border-radius: 20px;
 }
 
 .feature h3 {
-  font-size: 18px;
+  font-size: 28px;
   color: #333;
   margin-bottom: 10px;
+  text-align: start;
+  margin-left: 60px !important;
+  margin-top: -60px;
 }
 
 .feature p {
-  font-size: 14px;
+  font-size: 22px;
   color: #666;
-  max-width: 240px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 400px;
+  text-align: start;
+  margin-left: 60px !important;
 }
 
 /* Responsive Design */
@@ -1063,8 +1056,8 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  height: 450px;
-  width: 320px;
+  height: 517px;
+  width: 376px;
 }
 .plan-card h3 {
   font-size: 20px;
@@ -1245,13 +1238,15 @@ section.testimonials {
 }
 
 .testimonials-content h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
+  text-align: start;
+  font-size: 45px;
 }
 
 .testimonials-content .quote {
+  text-align: start;
   font-size: 1.2em;
   margin-bottom: 15px;
+  width: 500px;
 }
 
 .testimonials-content .quote-symbol {
@@ -1260,6 +1255,7 @@ section.testimonials {
 }
 
 .testimonials-content .author {
+  text-align: start;
   margin-top: 10px;
   font-style: italic;
 }
@@ -1276,7 +1272,8 @@ section.testimonials {
 }
 
 .form-container {
-  width: 40%;
+  width: 50%;
+  height: 600px;
   background-color: #2d3b50;
   border-radius: 10px;
   padding: 30px;
@@ -1285,6 +1282,7 @@ section.testimonials {
 }
 
 .form-content {
+  padding: 50px;
   text-align: center;
 }
 
@@ -1365,10 +1363,8 @@ form textarea {
 
 .quote-symbol {
   font-size: 1.5em; /* Kích thước chữ cho ký hiệu */
-  color: #54bd95; /* Màu ký hiệu */
   position: absolute; /* Đặt ký hiệu ở vị trí chính xác */
-  left: -30px; /* Dịch sang trái */
-  top: -10px; /* Dịch lên trên */
+  top: -30px; /* Dịch lên trên */
 }
 
 .author {
@@ -1442,9 +1438,9 @@ section.get-started {
 }
 
 .download-app img {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
 }
 
 @keyframes float {
