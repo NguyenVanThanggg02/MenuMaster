@@ -919,11 +919,11 @@ body {
 }
 
 .features-header p {
-  font-size: 16px;
+  font-size: 20px;
   color: #666;
   margin-bottom: 20px;
-  max-width: 300px;
-  margin-left: auto;
+  max-width: 370px;
+  margin-left: 21%;
   text-align: justify;
   margin-right: auto;
 }
