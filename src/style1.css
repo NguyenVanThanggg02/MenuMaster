@@ -228,42 +228,42 @@ header ul li a:hover {
 
 .feature p {
   color: #666;
-  transition: color 0.3s ease; /* Hiệu ứng chuyển màu cho mô tả */
+  transition: color 0.3s ease; 
 }
 
 .feature:hover h3,
 .feature:hover p {
-  color: #4CAF50; /* Thay đổi màu sắc khi hover */
+  color: #4CAF50; 
 }
 
 /* Choose Plan */
 .plans-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cột tự động */
-  gap: 20px; /* Khoảng cách giữa các thẻ */
-  margin: 20px; /* Khoảng cách với các cạnh của container */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px; 
+  margin: 20px; 
 }
 
 .plan-card {
-  background-color: #fff; /* Màu nền cho thẻ kế hoạch */
+  background-color: #fff; 
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng chuyển đổi cho thẻ */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .plan-card:hover {
-  transform: translateY(-5px); /* Nâng cao thẻ khi hover */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Tăng độ đổ bóng khi hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .plan-card h3 {
-  margin-bottom: 10px; /* Khoảng cách dưới tiêu đề */
+  margin-bottom: 10px; 
 }
 
 .plan-card h2 {
-  margin: 20px 0; /* Khoảng cách giữa tiêu đề và giá */
+  margin: 20px 0; 
 }
 
 .btn-signup,
@@ -273,22 +273,22 @@ header ul li a:hover {
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Hiệu ứng chuyển đổi cho nút */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn-signup {
-  background-color: #54bd95; /* Màu nền cho nút Signup */
+  background-color: #54bd95; 
   color: white;
 }
 
 .btn-signup:hover {
-  background-color: #47a584; /* Thay đổi màu nền khi hover */
+  background-color: #47a584;
 }
 
 .btn-pro {
-  background-color: #54bd95; /* Màu nền cho nút Pro */
+  background-color: #54bd95; 
   color: white;
-  padding: 10px 30px; /* Kích thước khác cho nút Pro */
+  padding: 10px 30px;
 }
 
 .btn-pro:hover {
