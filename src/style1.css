@@ -133,6 +133,7 @@ header ul li a:hover {
   left: 0;
   color: #4CAF50;
   font-size: 1.5rem;
+  margin: 0 10px;
 }
 .basic ul li{
   text-align: start;
@@ -151,6 +152,7 @@ header ul li a:hover {
   left: 0;
   color: #4CAF50;
   font-size: 1.5rem;
+  margin: 0 10px;
 }
 .basic ul li::before {
   content: '✓';
@@ -163,6 +165,7 @@ header ul li a:hover {
   left: 0;
   color: #4CAF50;
   font-size: 1.5rem;
+  margin: 0 10px;
 }
 .benefits-text ul li:hover {
   color: #333;
@@ -279,6 +282,8 @@ header ul li a:hover {
 .btn-signup {
   background-color: #54bd95; 
   color: white;
+  width: 260px;
+  height: 64px;
 }
 
 .btn-signup:hover {
@@ -289,6 +294,9 @@ header ul li a:hover {
   background-color: #54bd95; 
   color: white;
   padding: 10px 30px;
+  width: 260px;
+  height: 64px;
+
 }
 
 .btn-pro:hover {
@@ -298,6 +306,9 @@ header ul li a:hover {
 .btn-enterprise {
   background-color: #54bd95; /* Màu nền cho nút Enterprise */
   color: white;
+  width: 260px;
+  height: 64px;
+
 }
 
 .btn-enterprise:hover {
@@ -1085,15 +1096,23 @@ body {
 .save-amount {
   font-size: 14px;
   color: #5fd7b9;
-  width: 120px;
-  height: 37px;
+  width: 132px;
+  height: 40px;
   margin-bottom: 20px;
   border-radius: 15px;
   padding-top: 12px;
   background-color: rgba(239, 241, 244, 0.5);
-  margin-left: 70px;
+  margin-left: 90px;
 }
-
+.pro-ul-li{
+  font-weight: bold;
+}
+.enterprise-ul-li{
+  font-weight: bold;
+}
+.basic-ul-li{
+  font-weight: bold;
+}
 .plan-card ul {
   list-style: none;
   padding: 0;
@@ -1266,8 +1285,8 @@ section.testimonials {
 
 .avatars .avatar {
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   margin-right: 10px;
 }
 
@@ -1375,7 +1394,6 @@ form textarea {
 
 .avatars {
   display: flex; /* Sử dụng flexbox để bố trí avatar */
-  justify-content: center; /* Căn giữa các avatar */
   margin-top: 20px; /* Khoảng cách trên cho avatar */
 }
 
