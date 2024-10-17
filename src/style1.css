@@ -1494,12 +1494,12 @@ section.get-started {
   z-index: 0;
   width: 140px;
   height: 270px;
-  animation: float 3s ease-in-out infinite; /* Sử dụng animation float cho phone1 */
+  animation: float 3s ease-in-out infinite; /* Sử dụng animation float cho phone1  */
 }
 
 .phone2 {
   z-index: 1;
-  width: 170px;
+  width: 310px;
   height: 300px;
   animation: float2 3s ease-in-out infinite; /* Sử dụng animation float2 cho phone2 */
 }
