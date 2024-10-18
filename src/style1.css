@@ -288,6 +288,7 @@ header ul li a:hover {
 
 .btn-signup:hover {
   background-color: #47a584;
+  color: white !important;
 }
 
 .btn-pro {
@@ -308,11 +309,11 @@ header ul li a:hover {
   color: white;
   width: 260px;
   height: 64px;
-
 }
 
 .btn-enterprise:hover {
   background-color: #47a584; /* Thay đổi màu nền khi hover */
+  color: white !important;
 }
 
 @keyframes fadeIn {
