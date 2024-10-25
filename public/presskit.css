@@ -33,11 +33,15 @@ body {
 }
 .image-containerr img{
     width: 440px; 
-    height: 522px;
+    height: 577px;
+}
+.image-containerrr img{
+  width: 570px; 
+  height: 597px;
 }
 .image-case img{
     width: 300px; 
-    height: 480px;
+    height: 530px;
 }
 .image-case{
   margin-left: 70px;
@@ -181,37 +185,17 @@ body {
   }
   .pricing-header h1 {
     font-size: 32px;
-    color: #333;
+    color: white;
     margin-bottom: 10px;
   }
   
   .pricing-header p {
     font-size: 16px;
-    color: #666;
+    color: white;
     margin-bottom: 20px;
     font-weight: bold;
   }
 
-  .toggle-buttons {
-    display: inline-block;
-    margin-bottom: 40px;
-  }
-
-  .toggle-btn {
-    padding: 10px 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    color: #666;
-    border-radius: 25px;
-    cursor: pointer;
-    margin-right: 10px;
-  }
-  
-  .toggle-btn.active {
-    background-color: #5fd7b9;
-    color: white;
-    border: none;
-  }
   .plans-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
@@ -282,41 +266,31 @@ body {
   }
   
   .btn-signup {
-    background-color: #54bd95; 
-    color: white;
-    width: 260px;
+    background-color: #54bd95 !important; 
+    color: white !important;
+    width: 220px;
     height: 24px;
   }
   
-  .btn-signup:hover {
-    background-color: #47a584;
-    color: white !important;
-  }
+  
   
   .btn-pro {
     background-color: #54bd95; 
     color: white;
     padding: 10px 30px;
-    width: 260px;
+    width: 220px;
     height: 24px;
   
   }
   
-  .btn-pro:hover {
-    background-color: #47a584; /* Thay đổi màu nền khi hover */
-  }
-  
+ 
   .btn-enterprise {
-    background-color: #54bd95; /* Màu nền cho nút Enterprise */
-    color: white;
-    width: 260px;
+    background-color: #54bd95 !important; /* Màu nền cho nút Enterprise */
+    color: white !important;
+    width: 220px;
     height: 24px;
   }
   
-  .btn-enterprise:hover {
-    background-color: #47a584; /* Thay đổi màu nền khi hover */
-    color: white !important;
-  }
   .plan-card ul {
     list-style: none;
     padding: 0;
@@ -427,37 +401,37 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
-.content {
+.contentt {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     text-align: justify;
 }
-.content .column {
+.contentt .column {
     width: 30%;
     padding: 20px;
     border-radius: 10px;
 }
-.content .column h3 {
+.contentt .column h3 {
     font-size: 20px;
     margin-top: 0;
     font-size: 30px;
 }
-.content .column p {
+.contentt .column p {
     font-size: 14px;
     line-height: 1.6;
     font-size: 20px;
 
 }
-.content .column ul {
+.contentt .column ul {
     padding-left: 20px;
 }
-.content .column ul li {
+.contentt .column ul li {
     margin-bottom: 10px;
     font-size: 20px;
 
 }
-.content .column ul li strong i {
+.contentt .column ul li strong i {
     font-weight: bold;
     text-decoration: underline;
 }
@@ -476,12 +450,15 @@ body {
 }
 .menus-content{
   text-align: center;
-  color: white;
+  color: rgb(6, 147, 51);
+  padding: 20px;
 }
 .menus-content1{
   text-align: center;
-  color: white;
+  color: rgb(6, 147, 51);
+  margin: 40px;
+
 }
 .menus-content1 p{
-  font-size: 20px;
+  font-size: 16px;
 }
